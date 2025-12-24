@@ -5,9 +5,8 @@
 # ----------------------------
 # Geral: arquivos e pastas comuns
 # ----------------------------
-
+examples/ 
 prompts/
-examples/
 CLAUDE.md
 
 # ----------------------------
