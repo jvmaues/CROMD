@@ -1,3 +1,131 @@
+# ============================================================
+# .gitignore — Python + C/C++
+# ============================================================
+
+# ----------------------------
+# Geral: arquivos e pastas comuns
+# ----------------------------
+
 prompts/
 examples/
 CLAUDE.md
+
+# ----------------------------
+# Python: ambientes virtuais
+# ----------------------------
+.venv/
+venv/
+env/
+ENV/
+.ENV/
+virtualenv/
+.python-version
+
+# Conda
+.conda/
+conda-env/
+*.conda
+
+# Pipenv / Poetry / uv
+Pipfile.lock
+poetry.lock
+.uv/
+uv.lock
+
+# PyInstaller / builds
+build/
+dist/
+*.spec
+
+# Bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+.profile_default/
+ipython_config.py
+
+# IDEs/editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# C/C++: artefatos de build
+# ----------------------------
+# Objetos e dependências
+*.o
+*.obj
+*.lo
+*.slo
+*.d
+*.dep
+*.dSYM/
+
+# Bibliotecas
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+
+# Executáveis
+*.exe
+*.out
+*.app
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Meson / Ninja
+builddir/
+.ninja_deps
+.ninja_log
+
+# Autotools
+autom4te.cache/
+aclocal.m4
+config.log
+config.status
+config.guess
+config.sub
+configure
+depcomp
+install-sh
+ltmain.sh
+missing
+m4/
+libtool
+*.la
+*.lo
+*.in
+
+# Outros diretórios comuns de build
+bin/
+obj/
+out/
+Debug/
+Release/
+x64/
+x86/
