@@ -8,6 +8,7 @@
 examples/ 
 prompts/
 CLAUDE.md
+.claude
 
 # ----------------------------
 # Python: ambientes virtuais
